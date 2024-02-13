@@ -2,7 +2,7 @@ export const sections = ['primera', 'segunda']
 
 
 
-export const UI = ({ section, onSectionChange }) => {
+export const  UI = ({ section, onSectionChange }) => {
 
 
     return (
