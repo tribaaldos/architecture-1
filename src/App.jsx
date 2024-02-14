@@ -10,8 +10,7 @@ function App() {
     <>
       <Canvas camera={{position : [0, 5, 50]}}>
         <Environment preset="sunset" />
-        <OrbitControls />
-        <Experience />
+        <Experience section={section}/>
       </Canvas>
 
       <UI section={section} onSectionChange={setSection} />

@@ -1,0 +1,81 @@
+.main-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    pointer-events: none;
+}
+
+.main-div {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.first-section {
+    position: absolute;
+    inset: 4px;
+    display: grid;
+    text-align: left;
+}
+
+.button-1 {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    pointer-events: auto;
+}
+
+h1 {
+
+    font-size: 2rem;
+    font-weight: 500;
+    color: #8c8c8c;
+
+}
+
+
+p {
+    font-size: 2.25 rem;
+    font-weight: 800;
+    color: black;
+}
+
+.section-text {
+    position: absolute;
+    inset: 4px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition-property: opacity;
+    transition-duration: 1000ms;
+    /* opacity: 0; */
+}
+
+.rounded-button {
+    border-radius: 50%;
+    border: 1px solid #8c8c8c;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    pointer-events: auto;
+}
+
+.rounded-button:hover {
+    opacity: 0.8;
+}
+
+.bg-stone-100 {
+    background-color: #8c8c8c;
+}
